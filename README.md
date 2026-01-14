@@ -139,26 +139,19 @@ COMBINED EXAMPLE
 ## **Repository Structure**
 
 VERILOG-Project_1/
-│
-├── docs/       
+├── docs/
 │   ├── bin_to_grey_console.png
 │   ├── bin_to_grey_design.png
 │   ├── bin_to_grey_schematic.png
 │   ├── bin_to_grey_tb.png
 │   ├── bin_to_grey_waveform.png
-│   │
 │   ├── even_odd_console.png
 │   ├── even_odd_design.png
 │   ├── even_odd_schematic.png
 │   ├── even_odd_simulation.png
 │   └── even_odd_tb.png
 │
-├── src/            # DESIGN CODE 
+├── src/                 # Design files
 │   ├── binary_to_grey.v
-│   └── even_odd.v
-│
-├── tb/             # TESTBRANCH FOR VERIFICATION
-│   ├── bin_grey.v
-│   └── even_odd_tb.v
-│
-└── README.md
+│   └── even
+
