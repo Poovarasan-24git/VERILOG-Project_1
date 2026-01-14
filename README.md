@@ -1,7 +1,6 @@
 # VERILOG-Project_1
-# Verilog Projects: Binary to Gray Code & Parity Generator/Checker
-**1. Binary to Gray Code Converter**
-
+# Verilog Projects: BINARY TO GREY CODE CONVERTER AND ITS APPLICATION EVEN ODD PARITY CHECKER & GENERATOR #
+## **1. Binary to Gray Code Converter** ##
 ### Project Overview
 The Binary to Gray Code Converter converts a given binary number into its
 corresponding Gray code. Gray code is a binary numeral system in which two
