@@ -4,7 +4,6 @@
 This repository contains two Verilog HDL projects designed to understand
 **combinational logic**, **XOR operations**, and **basic error detection techniques**
 used in digital systems.
-1. **Binary to Gray Code Converter**
 
 ## **1. Binary to Gray Code Converter**
 
@@ -20,7 +19,6 @@ changes between consecutive values.
 * Each remaining Gray bit is obtained by **XORing adjacent binary bits**.
 
 ### **Truth table**
-                ## Binary to Gray Code – Truth Table
 
 | Binary Input (a3 a2 a1 a0) | Gray Output (b3 b2 b1b0) |
 |--------------------------- |--------------------------|
@@ -48,7 +46,7 @@ changes between consecutive values.
   *  assign b[2] = a[3]^a[2];
   * assign b[1] = a[2]^a[1];
   *  assign b[0] = a[1]^a[0];
-### It is 4-bit grey code converter.So,there are only 4 bits so that only a[0],a[1],a[2],a[3] are possible.##
+### It is 4-bit grey code converter.So,there are only 4 bits so that a[0],a[1],a[2],a[3] are present
 
 ### **Why Gray Code is Used**
 
@@ -87,7 +85,7 @@ Parity checking is a simple and commonly used **error detection method**.
   * `0` → No error
   * `1` → Error detected
 
-  #### **TRUTH TABLE FOR PARITY GENERATOR **
+  #### **TRUTH TABLE FOR PARITY GENERATOR**
 | Data (A3 A2 A1 A0)| No. of 1s | Even Parity Bit | Odd Parity Bit |
 | ------------------| --------- | --------------- | -------------- |
 |        000        |     0     |       0         |       1        |
@@ -99,13 +97,13 @@ Parity checking is a simple and commonly used **error detection method**.
 |        110        |     2     |       0         |       1        |
 |        111        |     3     |       1         |       0        |
 
-#### **TRUTH TABLE FOR EVEN PARITY CHECKER **
+#### **TRUTH TABLE FOR EVEN PARITY CHECKER**
 | Received Data + Parity | XOR Result |   Error  |
 | ---------------------- | ---------- | -------- |
 |   Correct even parity  |     0      | No Error |
 |    Incorrect parity    |     1      |   Error  |
 
-#### **TRUTH TABLE FOR ODD PARITY CHECKER **
+#### **TRUTH TABLE FOR ODD PARITY CHECKER**
 | Received Data + Parity | XOR Result |   Error  |
 | ---------------------- | ---------- | -------- |
 |   Correct odd parity   |     1      | No Error |
