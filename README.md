@@ -46,7 +46,7 @@ changes between consecutive values.
   *  assign b[2] = a[3]^a[2];
   * assign b[1] = a[2]^a[1];
   *  assign b[0] = a[1]^a[0];
-### It is 4-bit grey code converter.So,there are only 4 bits so that a[0],a[1],a[2],a[3] are present
+### It is 4-bit gray code converter.So,there are only 4 bits so that a[0],a[1],a[2],a[3] are present
 
 ### **Why Gray Code is Used**
 
@@ -137,7 +137,6 @@ COMBINED EXAMPLE
 * **Git & GitHub**
 
 ## **Repository Structure**
-## Repository Structure
 ```text
 VERILOG-Project_1/
 ├── docs/
