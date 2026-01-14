@@ -140,22 +140,22 @@ COMBINED EXAMPLE
 ```text
 VERILOG-Project_1/
 ├── docs/
-│   ├── bin_to_grey_console.png
-│   ├── bin_to_grey_design.png
-│   ├── bin_to_grey_schematic.png
-│   ├── bin_to_grey_tb.png
-│   ├── bin_to_grey_waveform.png
+│   ├── bin_to_gray_console.png
+│   ├── bin_to_gray_design.png
+│   ├── bin_to_gray_schematic.png
+│   ├── bin_to_gray_tb.png
+│   ├── bin_to_gray_waveform.png
 │   ├── even_odd_console.png
 │   ├── even_odd_design.png
 │   ├── even_odd_schematic.png
 │   ├── even_odd_simulation.png
 │   └── even_odd_tb.png
 ├── src/
-│   ├── binary_to_grey.v
+│   ├── binary_to_gray.v
 │   └── even_odd.v
 │
 ├── tb/
-│   ├── bin_grey.v
+│   ├── bin_gray.v
 │   └── even_odd_tb.v
 │
 └── README.md
