@@ -133,11 +133,12 @@ COMBINED EXAMPLE
 
 * **Verilog HDL**
 * **VS Code**
-* **ModelSim / Vivado Simulator**
+* **Vivado Simulator**
 * **Git & GitHub**
 
 ## **Repository Structure**
-
+## Repository Structure
+```text
 VERILOG-Project_1/
 ├── docs/
 │   ├── bin_to_grey_console.png
@@ -150,8 +151,13 @@ VERILOG-Project_1/
 │   ├── even_odd_schematic.png
 │   ├── even_odd_simulation.png
 │   └── even_odd_tb.png
-│
-├── src/                 # Design files
+├── src/
 │   ├── binary_to_grey.v
-│   └── even
+│   └── even_odd.v
+│
+├── tb/
+│   ├── bin_grey.v
+│   └── even_odd_tb.v
+│
+└── README.md
 
